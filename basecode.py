@@ -6,7 +6,7 @@ from langchain.document_loaders.csv_loader import CSVLoader
 import langchain_community
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
-#from main2 import predictor
+
 
 api_key = 'AIzaSyAab8rjcQRq1Vt944WLj6XwqwROVVitVvQ'
 print("we are good...")
