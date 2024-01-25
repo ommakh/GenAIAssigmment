@@ -19,7 +19,7 @@ from langchain.embeddings import HuggingFaceInstructEmbeddings
 from langchain.vectorstores import FAISS
 
 instructor_embeddings = HuggingFaceInstructEmbeddings()
-vectordb_file_path = "vectordata3"
+vectordb_file_path = "vector3"
 
 
 def create_vector_db():
@@ -31,7 +31,7 @@ def create_vector_db():
 
     print(datx)
     vectordb = FAISS.from_documents(documents=datx, embedding=instructor_embeddings)
-    vectordb.save_local("vectordata3")
+    vectordb.save_local("vector3")
 
 
 
