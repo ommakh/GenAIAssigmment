@@ -1,3 +1,4 @@
+pip install langchain
 import langchain
 from langchain.llms import GooglePalm
 from langchain.schema import document
