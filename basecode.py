@@ -8,7 +8,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 
 
-api_key = 'AIzaSyAab8rjcQRq1Vt944WLj6XwqwROVVitVvQ'
+api_key = 'AIzaSyArZsaHMMlPwCd6h_YVhdZQQMGk2g5fZgs'
 print("we are good...")
 
 llm = GooglePalm(google_api_key=api_key)
