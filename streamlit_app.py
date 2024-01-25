@@ -1,6 +1,6 @@
 import streamlit as st
 from basecode import get_chain,create_vector_db
-from main2 import predictor
+
 
 st.title(" Ask me Questions")
 
