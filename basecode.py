@@ -1,3 +1,4 @@
+import langchain
 from langchain.llms import GooglePalm
 from langchain.schema import document
 from langchain.vectorstores import FAISS
